@@ -1,0 +1,200 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #b9c4d4;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #ff9100;
+    color: #000;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.logo h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    color: #000;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #5d5dff;
+    color: beige;
+}
+
+.menu-icon {
+    display: none;
+    font-size: 30px;
+    color: #000;
+    cursor: pointer;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+main {
+    height: 100%;
+    background-color: #283ea1;
+    padding: 20px;
+    flex-grow: 1;
+}
+
+main p {
+    color: beige;
+    font-size: 25px;
+}
+
+.heroimg {
+    width: 100%;
+    height: 95vh;
+    background-image: url("slike/heroimgkulio.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#naslov {
+    padding: 13%;
+}
+
+#naslov button {
+    font-size: 25px;
+    font-weight: bold;
+    background-color: #ff9100;
+    padding: 10px;
+    transition: background-color 0.3s;
+}
+
+#naslov button:hover {
+    background-color: #5d5dff;
+    color: #fff;
+}
+
+#naslov div {
+    font-weight: bold;
+    font-size: 40px;
+    color: #000;
+    max-width: 40%;
+}
+
+#naslov h1 {
+    font-size: 120px;
+    color: beige;
+    margin: 1%;
+}
+
+#info {
+    padding-top: 30px;
+    padding-left: 5px;
+    margin-left: 15%;
+    margin-right: 15%;
+    border-radius: 5px;
+    float: left;
+    width: 70%;
+}
+
+#info .leva {
+    display: flex;
+    align-items: center;
+}
+
+#info .leva img {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#info div p {
+    width: 60%;
+}
+
+#info div img {
+    max-width: 20%;
+}
+
+#info .desna {
+    display: flex;
+    align-items: center;
+}
+
+#info .desna img {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.kontakt {
+    height: 100%;
+    background-image: url(slike/heroimg1.jpg);
+    padding: 20px;
+}
+
+.kontakt div {
+    font-size: 150%;
+    text-align: center;
+}
+
+footer {
+    background-color: #ff9100;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    align-self: flex-end;
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        flex-direction: row;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+
+    nav ul {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background-color: #ff9100;
+        margin-top: 10px;
+    }
+
+    nav ul li {
+        display: block;
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    .show {
+        display: flex !important;
+    }
+
+}

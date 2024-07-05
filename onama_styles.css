@@ -1,0 +1,31 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+#onama{
+    margin:0 20%
+}
+
+#onama h1{
+    font-size: 40px;
+}
+
+#onama p{
+    font-size: 20px;
+}
+
+
+#onama {
+    flex-grow: 1;
+}
+
+footer {
+    background-color: #ff9100;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    align-self: flex-end;
+}

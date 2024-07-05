@@ -1,0 +1,11 @@
+#kontakt {
+    margin: auto;
+    margin-top: 1%;
+    display: grid;
+    grid-auto-flow: column;
+    column-gap: 2%;
+}
+
+#kontakt p {
+    font-size: 25px;
+}
